@@ -9,6 +9,7 @@ export default defineConfig({
 		name: "Extension Name",
 		description: "Extension Description should be written here",
 		permissions: ["storage"],
+		host_permissions:["https://*/*"]
 	},
 
 	srcDir: "src",

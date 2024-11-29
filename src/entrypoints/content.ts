@@ -1,7 +1,8 @@
 import "@/assets/root.css";
 
 export default defineContentScript({
-	matches: ["*://*.google.com/*"],
+	registration:'runtime',
+	matches: [],
 	main() {
 		console.log("Hello content.");
 	},
